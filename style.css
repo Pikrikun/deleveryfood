@@ -1,0 +1,124 @@
+nav div ul li a.nav-link {
+  font-family: serif;
+  text-shadow: 2mm;
+}
+
+nav div .navbar-brand {
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0.3rem;
+}
+
+section div.carousel-inner h5 {
+  color: aliceblue;
+}
+
+nav div ul li a.nav-link {
+  color: whitesmoke;
+  text-transform: capitalize;
+}
+
+div h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-top: 2;
+  color: red;
+}
+
+nav div a.navbar-brand {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav div a:hover {
+  color: aquamarine;
+}
+
+.h2 {
+  width: 14rem;
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.h3 {
+  width: 16rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.location {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+h2:hover {
+  color: rgb(245, 33, 245);
+}
+
+nav .navbar-brand {
+  color: white;
+}
+
+section.pt {
+  padding-top: 4rem;
+}
+
+#lokasi {
+  padding-top: 2rem;
+}
+
+#listmenu {
+  padding-bottom: 2rem;
+}
+
+section div div.carousel-item img {
+  height: 550px;
+}
+
+.btn:hover {
+  background-color: chartreuse;
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+section div h4#harga {
+  font-size: 1rem;
+  color: rgb(53, 255, 97);
+  margin-top: 4;
+  font-weight: 800;
+}
+
+section div div#buy {
+  font-weight: 750;
+  text-transform: capitalize;
+}
+
+section div h5 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+div.slidertxt {
+  text-align: left;
+}
+
+.bintang {
+  color: goldenrod;
+}
+
+.gambar {
+  width: 200px;
+  height: 200px;
+  margin-top: -1rem;
+}
+
+.love {
+  color: red;
+  font-size: 2rem;
+  margin-top: -5rem;
+}

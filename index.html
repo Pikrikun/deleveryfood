@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title>Latihan!!</title>
+  </head>
+  <body id="slinder">
+    <!-- start navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-utensils"></i>
+          Fikri Ehh
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#slinder">Slinder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#listmenu">List Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lokasi">Lokasi Toko</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navigation end -->
+
+    <!-- slinder start -->
+    <section class="pt">
+      <div class="bg-dark p-2 shadow-lg rounded-1-md">
+        <div id="carouselExampleCaptions" class="carousel slide rounded-3" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="
+https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-the-history-behind-its-delicacy-170623y.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h5>Sate Babi Kriuk</h5>
+                <div class="textbuy">
+                  <h4 id="harga" class="d-inline-block">15.000 Rp</h4>
+                  <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i2.wp.com/icone-inc.org/wp-content/uploads/2018/11/Bakso-micita.jpg?fit=4999%2C3335&ssl=1" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-md-block">
+                <h5>Bakso Comberan</h5>
+                <div class="textbuy">
+                  <h4 id="harga" class="d-inline-block">10.000 Rp</h4>
+                  <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://resepaneka.com/wp-content/uploads/2019/11/mie-ayam-1024x1024.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-md-block">
+                <h5>Mie Ayam Kw Jepang</h5>
+                <div class="textbuy">
+                  <h4 id="harga" class="d-inline-block">9.000 Rp</h4>
+                  <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- slinder ends -->
+
+    <!-- list menu start -->
+    <div id="listmenu"></div>
+    <section>
+      <div class="listmenu">
+        <div class="h2 shadow-sm rounded-3"><h2 class="fw-bold" style="text-align: center">list menu</h2></div>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row g-2">
+          <div class="col-md-6">
+            <div class="border bg-light">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-2">
+                  <img src="https://tempat.com/blog/wp-content/uploads/2019/07/Steak_Frites_V10.jpg" class="w-100 rounded mx-auto d-block mt-4" alt="..." style="height: 15rem; width: 20rem" />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Steak Daging Sapi</h5>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                  <div class="textbuy">
+                    <h4 id="harga" class="d-inline-block">28.000 Rp</h4>
+                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border bg-light">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-2">
+                  <img
+                    src="
+                  https://harusjeli.com/uploads/image/2019/12/Steak-Tempe-dengan-BBQ-yang-Patut-Dicoba.jpg"
+                    class="w-100 rounded mx-auto d-block mt-4"
+                    alt="..."
+                    style="height: 15rem; width: 20rem"
+                  />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Steak Daging Babi</h5>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                  <div class="textbuy">
+                    <h4 id="harga" class="d-inline-block">25.000 Rp</h4>
+                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border bg-light">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-2">
+                  <img
+                    src="
+                    https://tse1.mm.bing.net/th/id/OIP.cK6X3-UeiIPk9JmBt59VLAHaE6?pid=ImgDet&rs=1"
+                    class="w-100 rounded mx-auto d-block mt-4"
+                    alt="..."
+                    style="height: 15rem; width: 20rem"
+                  />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Sop Buntut</h5>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                  <div class="textbuy">
+                    <h4 id="harga" class="d-inline-block">16.000 Rp</h4>
+                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="border bg-light">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-2">
+                  <img
+                    src="
+                    https://img-global.cpcdn.com/recipes/da3131211094fe85/1502x1064cq70/kare-ayam-foto-resep-utama.jpg"
+                    class="w-100 rounded mx-auto d-block mt-4"
+                    alt="..."
+                    style="height: 15rem; width: 20rem"
+                  />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Kare Ayam</h5>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                  <div class="textbuy">
+                    <h4 id="harga" class="d-inline-block">10.000 Rp</h4>
+                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- list menu ends -->
+
+    <!-- lokasi start -->
+    <section id="lokasi">
+      <div class="location">
+        <div class="h3 shadow-sm rounded-3"><h2 class="fw-bold">lokasi toko</h2></div>
+      </div>
+
+      <div class="border border-2 bg-light mt-4 rounded-1">
+        <div class="lokasi shadow-lg">
+          <iframe
+            class="ratio ratio-16x9 rounded-1 p-2"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.2861862940163!2d110.74653001432364!3d-7.543736576563157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a148e2d64dcff%3A0xaa82b612315cb7db!2sTaman%20TIARA%20ASRI!5e0!3m2!1sid!2sid!4v1641260373407!5m2!1sid!2sid"
+            height="390"
+          ></iframe>
+        </div>
+        <div class="card-body">
+          <p class="card-text">Singopuran, Sanggir Lor, Paulan, Colomadu, Karanganyar Regency, Central Java 57174</p>
+          <a href="https://goo.gl/maps/w64EXpFvpT3thAQt5" target="_black" class="btn btn-primary">View Lokasi</a>
+        </div>
+      </div>
+    </section>
+    <!-- lokasi end -->
+
+    <!-- reting start -->
+
+    <section>
+      <div class="listmenu">
+        <div class="mt-4 h3 shadow-sm rounded-3"><h2 class="fw-bold" style="text-align: center">Reting Food</h2></div>
+      </div>
+
+      <div class="container mt-4 bg-body">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                  <img src="https://tse3.mm.bing.net/th/id/OIP.zJPsr2DwW3xXUW80HuCbdwHaFr?pid=ImgDet&rs=1" class="w-100 rounded-1" alt="..." />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Columns with stretched link</h5>
+                  <div class="d-inline-block d-none d-md-block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nihil itaque minima.</p>
+                    <img src="https://img-global.cpcdn.com/recipes/da3131211094fe85/1502x1064cq70/kare-ayam-foto-resep-utama.jpg" class="rounded gambar" alt="..." />
+                    <i class="fas fa-heart love"></i>
+                  </div>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                  <div class="bintang">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                  <img src="https://tse3.mm.bing.net/th/id/OIP.zJPsr2DwW3xXUW80HuCbdwHaFr?pid=ImgDet&rs=1" class="w-100 rounded-1" alt="..." />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Columns with stretched link</h5>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                  <img src="https://tse3.mm.bing.net/th/id/OIP.zJPsr2DwW3xXUW80HuCbdwHaFr?pid=ImgDet&rs=1" class="w-100 rounded-1" alt="..." />
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                  <h5 class="mt-0">Columns with stretched link</h5>
+                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reting ends -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- java script -->
+    <script src="script.js"></script>
+  </body>
+</html>
