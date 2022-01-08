@@ -119,6 +119,15 @@ div.slidertxt {
 
 .love {
   color: red;
+  margin-top: 0.2rem;
   font-size: 2rem;
-  margin-top: -5rem;
+}
+
+.img {
+  height: 380px;
+}
+
+.ms {
+  margin-left: 2px;
+  color: blue;
 }
