@@ -48,9 +48,19 @@ nav div a:hover {
   margin-left: auto;
 }
 
+.h4 {
+  width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .location {
   margin-top: 2rem;
   text-align: center;
+}
+
+.bglokas {
+  border-bottom: 8px #aeaeaa solid;
 }
 
 h2:hover {
@@ -75,6 +85,7 @@ section.pt {
 
 section div div.carousel-item img {
   height: 550px;
+  background-size: cover;
 }
 
 .btn:hover {
@@ -130,4 +141,16 @@ div.slidertxt {
 .ms {
   margin-left: 2px;
   color: blue;
+}
+
+#reting {
+  padding-top: 2.6rem;
+}
+
+.sliimg {
+  background-position: 0 -30px;
+}
+
+.order {
+  margin-top: 2rem;
 }
