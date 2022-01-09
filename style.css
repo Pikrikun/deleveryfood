@@ -3,6 +3,10 @@ nav div ul li a.nav-link {
   text-shadow: 2mm;
 }
 
+.bgselver {
+  background-color: slategray;
+}
+
 nav div .navbar-brand {
   font-weight: 400;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -36,8 +40,9 @@ nav div a:hover {
 }
 
 .h2 {
+  margin-top: -2rem;
   width: 14rem;
-  margin-top: 3rem;
+  background-color: snow;
   margin-right: auto;
   margin-left: auto;
 }
@@ -46,11 +51,13 @@ nav div a:hover {
   width: 16rem;
   margin-right: auto;
   margin-left: auto;
+  background-color: snow;
 }
 
 .h4 {
   width: 20rem;
   margin-right: auto;
+  background-color: snow;
   margin-left: auto;
 }
 
@@ -76,11 +83,7 @@ section.pt {
 }
 
 #lokasi {
-  padding-top: 2rem;
-}
-
-#listmenu {
-  padding-bottom: 2rem;
+  padding-top: 3rem;
 }
 
 section div div.carousel-item img {
@@ -157,4 +160,39 @@ div.slidertxt {
 
 .btn123 {
   margin-bottom: 2rem;
+}
+
+.img09 {
+  border-bottom: 1rem snow solid;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.loader-container img {
+  width: 20rem;
+}
+.loader-container.fade-out {
+  top: 110%;
+  opacity: 0;
+}
+
+.txt {
+  color: skyblue;
+}
+
+.txt:hover {
+  background-color: silver;
+  width: 100px;
+  text-align: center;
 }
