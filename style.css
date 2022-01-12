@@ -39,8 +39,15 @@ nav div a:hover {
   color: aquamarine;
 }
 
+#listmenu {
+  margin-top: -3rem;
+}
+
+.padding {
+  padding-top: 5rem;
+}
+
 .h2 {
-  margin-top: -2rem;
   width: 14rem;
   background-color: snow;
   margin-right: auto;
@@ -56,6 +63,7 @@ nav div a:hover {
 
 .h4 {
   width: 20rem;
+  padding-top: 1rem;
   margin-right: auto;
   background-color: snow;
   margin-left: auto;
@@ -150,6 +158,10 @@ div.slidertxt {
   padding-top: 2.6rem;
 }
 
+.reting {
+  padding-top: 1rem;
+}
+
 .sliimg {
   background-position: 0 -30px;
 }
@@ -195,4 +207,62 @@ div.slidertxt {
   background-color: silver;
   width: 100px;
   text-align: center;
+}
+
+.bground {
+  background-color: #35858b;
+}
+
+.jarak {
+  padding-top: 1rem;
+}
+
+.imlast {
+  height: 160px;
+  width: 200px;
+  background-size: cover;
+}
+
+.about {
+  text-align: center;
+  color: #fff;
+  margin-right: 6px;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.pabout {
+  color: rgb(226, 226, 226);
+  text-align: center;
+}
+
+.backtext {
+  background-color: #aeaeaa;
+  width: 10rem;
+  padding: 4px;
+}
+
+h3 {
+  font-style: oblique;
+  margin-top: 4px;
+  color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.sosial {
+  margin-top: 8px;
+}
+
+.colmargin {
+  margin-top: 2rem;
+}
+
+.silog {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.latihan {
+  color: #d3dedc;
+  margin-top: 8px;
 }
