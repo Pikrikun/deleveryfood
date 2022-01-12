@@ -214,7 +214,7 @@ div.slidertxt {
 }
 
 .jarak {
-  padding-top: 1rem;
+  padding-top: 2rem;
 }
 
 .imlast {
@@ -259,10 +259,13 @@ h3 {
 
 .silog {
   font-size: 2rem;
-  color: #fff;
 }
 
 .latihan {
   color: #d3dedc;
   margin-top: 8px;
+}
+
+.silog:hover {
+  color: green;
 }
