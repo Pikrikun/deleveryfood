@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -25,6 +25,8 @@
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Latihan!!</title>
   </head>
@@ -64,7 +66,7 @@
 
     <!-- slinder start -->
     <section class="pt">
-      <div class="bgselver p-2 shadow-lg">
+      <div class="p-2 shadow-lg">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -76,31 +78,32 @@
               <img
                 src="
 https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-the-history-behind-its-delicacy-170623y.jpg"
-                class="d-block w-100 rounded-1 img09"
+                class="d-block w-100 rounded-1 img09 object-fill brightness-90"
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h5>Sate Babi Kriuk</h5>
-                <a href="#"><button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="15.000 Rp">Buy Now</button></a>
+                <h5 class="text-2xl text-zinc-100 font-semibold">Sate Babi Kriuk</h5>
+                <h4 id="harga" class="d-inline-block">15.000 Rp</h4>
+                <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Buy Now</a>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="https://i2.wp.com/icone-inc.org/wp-content/uploads/2018/11/Bakso-micita.jpg?fit=4999%2C3335&ssl=1" class="d-block w-100 img09" alt="..." />
+              <img src="https://i2.wp.com/icone-inc.org/wp-content/uploads/2018/11/Bakso-micita.jpg?fit=4999%2C3335&ssl=1" class="d-block w-100 img09 object-fill brightness-90" alt="..." />
               <div class="carousel-caption d-md-block rounded-1">
-                <h5>Bakso Comberan</h5>
+                <h5 class="text-2xl text-zinc-100 font-semibold">Bakso Comberan</h5>
                 <div class="textbuy">
                   <h4 id="harga" class="d-inline-block">10.000 Rp</h4>
-                  <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                  <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Buy Now</a>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="https://www.rumahmesin.com/wp-content/uploads/2019/10/mie-ayam-bakso.png" class="d-block w-100 sliimg rounded-1 img09" alt="..." />
+              <img src="https://www.rumahmesin.com/wp-content/uploads/2019/10/mie-ayam-bakso.png" class="d-block w-100 sliimg rounded-1 img09 object-fill brightness-90" alt="..." />
               <div class="carousel-caption d-md-block">
-                <h5>Mie Ayam Kw Jepang</h5>
+                <h5 class="text-2xl text-zinc-100 font-semibold">Mie Ayam Kw Jepang</h5>
                 <div class="textbuy">
                   <h4 id="harga" class="d-inline-block">9.000 Rp</h4>
-                  <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                  <a id="buy" type="button" class="btn mt-1 bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -115,13 +118,6 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
           </button>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="rgb(112, 128, 144)"
-          fill-opacity="1"
-          d="M0,192L48,186.7C96,181,192,171,288,149.3C384,128,480,96,576,80C672,64,768,64,864,69.3C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-        ></path>
-      </svg>
     </section>
 
     <!-- slinder ends -->
@@ -142,11 +138,11 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
                   <img src="https://tempat.com/blog/wp-content/uploads/2019/07/Steak_Frites_V10.jpg" class="w-100 rounded mx-auto d-block mt-4" alt="..." style="height: 15rem; width: 20rem" />
                 </div>
                 <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0">Steak Daging Sapi</h5>
+                  <h5 class="mt-0 text-xl">Steak Daging Sapi</h5>
                   <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
                   <div class="textbuy">
                     <h4 id="harga" class="d-inline-block">28.000 Rp</h4>
-                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -165,11 +161,11 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
                   />
                 </div>
                 <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0">Steak Daging Babi</h5>
+                  <h5 class="mt-0 text-xl">Steak Daging Babi</h5>
                   <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
                   <div class="textbuy">
                     <h4 id="harga" class="d-inline-block">25.000 Rp</h4>
-                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -188,11 +184,11 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
                   />
                 </div>
                 <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0">Sop Buntut</h5>
+                  <h5 class="mt-0 text-xl">Sop Buntut</h5>
                   <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
                   <div class="textbuy">
                     <h4 id="harga" class="d-inline-block">16.000 Rp</h4>
-                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" style="color: rgb(248 250 252)" href="#">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -211,11 +207,11 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
                   />
                 </div>
                 <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0">Kare Ayam</h5>
+                  <h5 class="mt-0 text-xl">Kare Ayam</h5>
                   <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
                   <div class="textbuy">
                     <h4 id="harga" class="d-inline-block">10.000 Rp</h4>
-                    <a id="buy" type="button" class="btn btn-primary" href="#">Buy Now</a>
+                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Buy Now</a>
                   </div>
                 </div>
               </div>
@@ -242,7 +238,7 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
         </div>
         <div class="card-body">
           <p class="card-text">Singopuran, Sanggir Lor, Paulan, Colomadu, Karanganyar Regency, Central Java 57174</p>
-          <a href="https://goo.gl/maps/w64EXpFvpT3thAQt5" target="_black" class="btn btn-primary">View Lokasi</a>
+          <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600 mt-2" href="https://goo.gl/maps/w64EXpFvpT3thAQt5" target="_black" style="color: rgb(248 250 252)">View Lokasi</a>
         </div>
       </div>
     </section>
@@ -406,7 +402,7 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
             <input type="number" class="form-control" id="inputZip" />
           </div>
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn123">Order Now</button>
+            <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Order Now</a>
           </div>
         </form>
       </div>
@@ -421,14 +417,14 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
         <div class="jarak">
           <div class="row row-cols-md-3">
             <div class="col">
-              <div class="d-flex justify-content-center"><h5 class="about pj">About</h5></div>
+              <div class="d-flex justify-content-center"><p class="ptxt rounded-md font-medium bg-cyan-500" style="color: white">About</p></div>
               <div class="d-flex justify-content-center mt-2"><img src="img/Untitled-1.jpg" class="imlast img-thumbnail rounded-circle" alt="..." /></div>
               <div>
-                <p class="fs-6 d-md-block mt-2 mt-2 pabout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quas laboriosam.</p>
+                <p class="fs-6 d-md-block mt-2 mt-2 mb-2 pabout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quas laboriosam.</p>
               </div>
             </div>
             <div class="col">
-              <div class="d-flex justify-content-center"><h5 class="about backtext">Contact Saya</h5></div>
+              <div class="d-flex justify-content-center"><p class="ptxt rounded-md font-medium bg-cyan-500" style="color: white">Contact Saya</p></div>
               <div class="row d-flex justify-content-center mt-3">
                 <div class="col-4">
                   <i class="bi bi-whatsapp silog d-flex justify-content-center shadow"></i>
@@ -437,20 +433,20 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
                   <i class="bi bi-envelope-plus-fill silog d-flex justify-content-center shadow"></i>
                 </div>
               </div>
-              <h5 class="text-center latihan mt-2">Mrs Pikrikun</h5>
-              <div>
+              <h5 class="text-center latihan mt-2 text-lg">Mrs Pikrikun</h5>
+              <div class="text-base italic font-medium">
                 <h3 style="margin-top: 8px">Telepon / Email</h3>
                 <h3>+62 889 87 546 12</h3>
                 <h3>+62 889 11 2234</h3>
               </div>
-              <div>
+              <div class="text-base italic font-medium">
                 <h3 style="margin-top: 10px">latihankun@gmail.com</h3>
                 <h3 class="mb-3">latihankun23@gmail.com</h3>
               </div>
             </div>
             <br />
             <div class="col">
-              <div class="d-flex justify-content-center"><h5 class="about backtext">Sosial Media</h5></div>
+              <div class="d-flex justify-content-center container-md"><p class="ptxt rounded-md font-medium bg-cyan-500 mb-2" style="color: white">Sosial Media</p></div>
               <div class="sosial">
                 <div class="row d-flex justify-content-center">
                   <div class="col-4">
@@ -471,7 +467,7 @@ https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-
                     <a href="https://twitter.com/?lang=en-id" class="hover" style="text-decoration: none" target="_black"><i class="fab fa-twitter silog d-flex justify-content-center shadow"></i></a>
                   </div>
                   <div class="sg">
-                    <h5 class="text-center latihan mt-4">Follow Me Us</h5>
+                    <h5 class="text-center latihan mt-4 text-lg">Follow Me Us</h5>
                   </div>
                 </div>
               </div>
