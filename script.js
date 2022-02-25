@@ -28,3 +28,17 @@ function fadeOut() {
 }
 
 window.onload = fadeOut;
+
+var swiper = new Swiper(".Slinder", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
