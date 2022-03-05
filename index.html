@@ -18,17 +18,15 @@
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
 
+    <link rel="stylesheet" href="public/footer.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
     <!-- icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
     <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
@@ -52,45 +50,48 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link txt" aria-current="page" href="#slinder">Slinder</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" aria-current="page" href="#slinder">Slinder</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link txt" href="#listmenu">List Menu</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#listmenu">List Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link txt" href="#lokasi">Lokasi Toko</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#lokasi">Lokasi Toko</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link txt" href="#reting">Reting Food</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#reting">Reting Food</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link txt" href="#order">Order Food</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#order">Order Food</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <!-- navbar mobile app -->
     <div class="offcanvas offcanvas-end w-64 md:w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <h5 id="offcanvasRightLabel">Offcanvas right</h5>
         <i class="bi bi-x-circle-fill text-xl" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></i>
       </div>
+      <hr class="w-full" />
       <div class="offcanvas-body">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link txt" aria-current="page" href="#slinder">Slinder</a>
+            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" aria-current="page" href="#slinder">Slinder</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link txt" href="#listmenu">List Menu</a>
+            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#listmenu">List Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link txt" href="#lokasi">Lokasi Toko</a>
+            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#lokasi">Lokasi Toko</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link txt" href="#reting">Reting Food</a>
+            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#reting">Reting Food</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link txt" href="#order">Order Food</a>
+            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#order">Order Food</a>
           </li>
         </ul>
       </div>
@@ -100,28 +101,29 @@
     <!-- slinder start -->
     <div class="swiper Slinder">
       <div class="swiper-wrapper">
-        <div class="swiper-slide h-auto">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
           <img src="https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_960_720.jpg" alt="" class="w-full md:w-auto" />
+
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
           <img src="https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg" alt="" class="w-full md:w-auto" />
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
           <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg" alt="" class="w-full md:w-auto" />
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
           <img src="https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_960_720.jpg" alt="" class="w-full md:w-auto" />
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
@@ -136,95 +138,86 @@
     <!-- slinder ends -->
 
     <!-- list menu start -->
-    <div id="listmenu"></div>
-    <section>
-      <div class="listmenu padding">
-        <div class="h2 shadow-sm rounded-3"><h2 class="fw-bold" style="text-align: center">list menu</h2></div>
-      </div>
+    <section id="listmenu" class="pt-20 -mt-3">
+      <h1 class="text-center text-5xl text-zinc-50 font-medium font-serif text-black">List Menu</h1>
 
-      <div class="container mt-4" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
-        <div class="row g-2">
-          <div class="col-md-6">
-            <div class="border bg-light">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-2" uk-scrollspy-class="uk-animation-slide-top">
-                  <img src="https://tempat.com/blog/wp-content/uploads/2019/07/Steak_Frites_V10.jpg" class="w-100 rounded mx-auto d-block mt-4" alt="..." style="height: 15rem; width: 20rem" />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 text-xl">Steak Daging Sapi</h5>
-                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-                  <div class="textbuy">
-                    <h4 id="harga" class="d-inline-block">28.000 Rp</h4>
-                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#order" style="color: rgb(248 250 252)">Buy Now</a>
+      <div class="container mt-2">
+        <div class="row">
+          <div class="col-xl">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+              <div class="uk-card-media-left uk-cover-container rounded-t-lg md:rounded-t-none md:rounded-l-lg xl:h-full">
+                <img src="https://cdn.pixabay.com/photo/2021/05/01/22/01/meat-6222139_960_720.jpg" class="" alt="" uk-cover />
+                <canvas width="600" height="400"></canvas>
+              </div>
+              <div>
+                <div class="uk-card-body xl:-my-6 xl:px-4 w-full">
+                  <h3 class="uk-card-title text-slate-200">Steak Daging Sapi</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius distinctio, aliquam aut incidunt modi ab esse doloremque ad velit hic excepturi, illum asperiores minus dolorum debitis eaque odit ducimus.</p>
+                  <div class="d-flex mt-2">
+                    <button class="uk-button inline-block uk-button-secondary rounded-lg mt-2">Buy Now</button>
+                    <p class="text-red-500 oldstyle-nums text-xl font-medium 2xl:text-xl pl-2 content-center mt-2.5">22.000</p>
+                    <span>Rp</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6" uk-scrollspy-class="uk-animation-slide-top">
-            <div class="border bg-light">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-2">
-                  <img
-                    src="
-                  https://harusjeli.com/uploads/image/2019/12/Steak-Tempe-dengan-BBQ-yang-Patut-Dicoba.jpg"
-                    class="w-100 rounded mx-auto d-block mt-4"
-                    alt="..."
-                    style="height: 15rem; width: 20rem"
-                  />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 text-xl">Steak Daging Babi</h5>
-                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-                  <div class="textbuy">
-                    <h4 id="harga" class="d-inline-block">25.000 Rp</h4>
-                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#order" style="color: rgb(248 250 252)">Buy Now</a>
+          <div class="col-xl">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-scrollspy="cls: uk-animation-slide-right; repeat: true" uk-grid>
+              <div class="uk-flex-last@s uk-card-media-right uk-cover-container md:rounded-r-lg xl:h-full">
+                <img src="https://cdn.pixabay.com/photo/2016/04/25/01/58/french-fries-1351062_960_720.jpg" class="" alt="" uk-cover />
+                <canvas width="600" height="400"></canvas>
+              </div>
+              <div>
+                <div class="uk-card-body xl:-my-6 xl:px-4 w-full">
+                  <h3 class="uk-card-title text-slate-200">Kentang Goreng</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit commodi, dolorum numquam quaerat labore, voluptatem culpa id doloribus quas voluptas qui asperiores obcaecati? Est, ex rerum reprehenderit earum dicta id.
+                  </p>
+                  <div class="d-flex mt-2">
+                    <button class="uk-button inline-block uk-button-secondary rounded-lg mt-2">Buy Now</button>
+                    <p class="text-red-500 oldstyle-nums text-xl mt-2.5 font-medium 2xl:text-xl pl-2">10.000</p>
+                    <span>Rp</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6" uk-scrollspy-class="uk-animation-slide-bottom">
-            <div class="border bg-light">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-2">
-                  <img
-                    src="
-                    https://tse1.mm.bing.net/th/id/OIP.cK6X3-UeiIPk9JmBt59VLAHaE6?pid=ImgDet&rs=1"
-                    class="w-100 rounded mx-auto d-block mt-4"
-                    alt="..."
-                    style="height: 15rem; width: 20rem"
-                  />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 text-xl">Sop Buntut</h5>
-                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-                  <div class="textbuy">
-                    <h4 id="harga" class="d-inline-block">16.000 Rp</h4>
-                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" style="color: rgb(248 250 252)" href="#order">Buy Now</a>
+        </div>
+        <div class="row mt-3">
+          <div class="col-xl">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+              <div class="uk-flex-last@s uk-card-media-right uk-cover-container md:rounded-r-lg xl:h-full">
+                <img src="https://cdn.pixabay.com/photo/2020/03/21/04/00/shrimp-4952610_960_720.jpg" class="" alt="" uk-cover />
+                <canvas width="600" height="400"></canvas>
+              </div>
+              <div>
+                <div class="uk-card-body xl:-my-6 xl:px-4 w-full">
+                  <h3 class="uk-card-title text-slate-200">Udang Goreng Legend</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel voluptatem porro labore velit. Alias ut vitae quae totam, labore aliquid, quaerat doloremque soluta neque fugit consequatur eius fuga quia.</p>
+                  <div class="d-flex mt-2">
+                    <button class="uk-button inline-block uk-button-secondary rounded-lg mt-2">Buy Now</button>
+                    <p class="text-red-500 oldstyle-nums text-xl mt-2.5 font-medium 2xl:text-xl pl-2">28.000</p>
+                    <span>Rp</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6" uk-scrollspy-class="uk-animation-slide-bottom">
-            <div class="border bg-light">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-2">
-                  <img
-                    src="
-                    https://img-global.cpcdn.com/recipes/da3131211094fe85/1502x1064cq70/kare-ayam-foto-resep-utama.jpg"
-                    class="w-100 rounded mx-auto d-block mt-4"
-                    alt="..."
-                    style="height: 15rem; width: 20rem"
-                  />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 text-xl">Kare Ayam</h5>
-                  <p>Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.</p>
-                  <div class="textbuy">
-                    <h4 id="harga" class="d-inline-block">10.000 Rp</h4>
-                    <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#order" style="color: rgb(248 250 252)">Buy Now</a>
+          <div class="col-xl">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72 rounded-b-lg md:rounded-b-none" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+              <div class="uk-card-media-left uk-cover-container md:rounded-l-lg xl:h-full">
+                <img src="https://cdn.pixabay.com/photo/2021/05/01/22/01/meat-6222139_960_720.jpg" class="" alt="" uk-cover />
+                <canvas width="600" height="400"></canvas>
+              </div>
+              <div>
+                <div class="uk-card-body xl:-my-6 xl:px-4 w-full">
+                  <h3 class="uk-card-title text-slate-200">Udang Goreng Legend</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius distinctio, aliquam aut incidunt modi ab esse doloremque ad velit hic excepturi, illum asperiores minus dolorum debitis eaque odit ducimus.</p>
+                  <div class="d-flex mt-2">
+                    <button class="uk-button inline-block uk-button-secondary rounded-lg mt-2">Buy Now</button>
+                    <p class="text-red-500 oldstyle-nums text-xl font-medium 2xl:text-xl pl-2 content-center mt-2.5">22.000</p>
+                    <span>Rp</span>
                   </div>
                 </div>
               </div>
@@ -236,138 +229,132 @@
     <!-- list menu ends -->
 
     <!-- lokasi start -->
-    <section id="lokasi">
-      <div class="location">
-        <div class="h3 shadow-sm"><h2 class="fw-bold">location toko</h2></div>
-      </div>
-
-      <div class="bglokas bg-light mt-4 rounded-1">
-        <div class="lokasi shadow-lg">
-          <iframe class="ratio ratio-16x9 rounded-1 p-2" src="" height="390"></iframe>
+    <div id="lokasi" class="container pt-20 -mt-2">
+      <div class="row">
+        <div class="col-lg maps mb-3">
+          <div class="border-y-4 border-stone-500 h-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15821.242500044107!2d110.74800645!3d-7.541062855830056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a15457f0f9a91%3A0xf00a9f94d408aacf!2skopi%20Joss%20colomadu!5e0!3m2!1sen!2sid!4v1645996332915!5m2!1sen!2sid"
+              class="w-full h-full"
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
-        <div class="card-body">
-          <p class="card-text">Singopuran, Sanggir Lor, Paulan, Colomadu, Karanganyar Regency, Central Java 57174</p>
-          <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600 mt-2" href="" target="_black" style="color: rgb(248 250 252)">View Lokasi</a>
+        <div class="col-lg-4">
+          <div class="w-full pb-20 bg-zinc-600 h-60 2xl:h-54 rounded lg:h-56 sm:h-52">
+            <i class="text-center bi bi-cart-plus-fill text-white flex justify-center pt-4 md:pt-6 lg:pt-0 text-4xl"></i>
+            <h1 class="text-white uppercase pt-3 md:pt-4 text-center font-medium">Lorem ipsum dolor sit</h1>
+            <p class="text-slate-200 pt-2 2xl:mt-3 lg:mt-0 px-2 text-center md:px-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis debitis ullam optio quaerat? Excepturi architecto voluptatum nostrum, dolore et</p>
+          </div>
+          <div class="list-group mt-3">
+            <li class="list-group-item py-3 text-center list-group-item-action active text-2xl font-medium" aria-current="true">Lokasi Toko</li>
+            <li class="list-group-item list-group-item-action">Jl. Pangeran Puger Jl. Klegen, Klagen, Malangjiwan, Kec. Colomadu, Kabupaten Karanganyar, Jawa Tengah 57177</li>
+            <li class="list-group-item list-group-item-action">Indonesia, Jawa Tengah</li>
+            <li class="list-group-item list-group-item-action">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </li>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- lokasi end -->
 
     <!-- reting start -->
-
     <section id="reting">
-      <div class="listmenu reting">
-        <div class="mt-3 h3 shadow-sm rounded-3"><h2 class="fw-bold" style="text-align: center">Reting Food</h2></div>
+      <div class="bg-rose-200 py-2 pt-20 -mt-20 flex justify-center w-64 md:w-72 lg:w-96 m-auto rounded-xl mb-4">
+        <h1 class="text-center font-mono text-xl md:text-2xl lg:text-4xl font-semibold text-red-500">Ulasan Pelanggan</h1>
       </div>
 
-      <div class="container mt-4 bg-body">
-        <div class="swiper mySwiper cursor-grab">
+      <!-- slinder pc -->
+      <div class="container-xl xl:container xl:w-auto">
+        <div class="swiper swiper-retting reting sm:hidden md:hidden hidden block lg:block">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-4">
-                  <img src="https://tse3.mm.bing.net/th/id/OIP.zJPsr2DwW3xXUW80HuCbdwHaFr?pid=ImgDet&rs=1" class="w-100 rounded-1 img" alt="..." />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 d-inline">Atta Halilintar</h5>
-                  <i class="fas fa-user-check d-inline ms"></i>
-                  <div class="d-none d-md-block">
-                    <h5 class="mt-0 text-center">Kare Ayam</h5>
-                    <img src="https://img-global.cpcdn.com/recipes/da3131211094fe85/1502x1064cq70/kare-ayam-foto-resep-utama.jpg" class="mx-auto d-block rounded gambar border border-2" style="margin-top: 1px" alt="..." /><i
-                      class="fas fa-heart love d-flex justify-content-center"
-                    ></i>
-                  </div>
-                  <p class="mtp">
-                    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
-                  </p>
-                  <div class="bintang">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-4">
-                  <img src="https://th.bing.com/th/id/OIP.Wt2Ck8HlqVhciRvSz9lvmwHaHa?pid=ImgDet&rs=1" class="w-100 rounded-1 img" alt="..." />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 d-inline">Ria Ricis</h5>
-                  <i class="fas fa-user-check d-inline ms"></i>
-                  <div class="d-none d-md-block">
-                    <h5 class="mt-0 text-center">Sate Babi Kriuk</h5>
+            <div class="swiper-slide img">
+              <div>
+                <div class="uk-card card-hight uk-card-default cursor-grab">
+                  <div class="uk-card-media-top pt-2.5">
                     <img
-                      src="https://cdn-brilio-net.akamaized.net/news/2017/06/23/127969/the-origins-of-sate-the-history-behind-its-delicacy-170623y.jpg"
-                      class="mx-auto d-block rounded gambar border border-2"
-                      style="margin-top: 1px"
-                      alt="..."
-                    /><i class="fas fa-heart love d-flex justify-content-center"></i>
+                      class="rounded-full flex m-auto border-zinc-600 border-solid border-4"
+                      src="https://img.okezone.com/content/2022/02/25/33/2553314/punya-tiga-pilihan-atta-halilintar-masih-bingung-tentukan-nama-baby-a-An6MnFTxwd.jpeg"
+                      alt=""
+                    />
                   </div>
-                  <p class="mtp">
-                    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
-                  </p>
-                  <div class="bintang">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                  <div class="uk-card-body">
+                    <h3 class="uk-card-title">Atta Halilintar</h3>
+                    <p class="xl:-mx-8 lg:-mx-6">sosok publik content creator yang telah membeli makanan, ia sangat suka sekali dari restaurant ini ramah dan baik</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-4">
-                  <img src="https://yt3.ggpht.com/a/AATXAJyMaC1E9G5TzlJ2tdPEoYxGm0U70kksVrPstw=s900-c-k-c0xffffffff-no-rj-mo" class="w-100 rounded-1 img" alt="..." />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 d-inline">Indra Kenz</h5>
-                  <i class="fas fa-user-check d-inline ms"></i>
-                  <div class="d-none d-md-block">
-                    <h5 class="mt-0 text-center">Steak Daging Babi</h5>
-                    <img src="https://harusjeli.com/uploads/image/2019/12/Steak-Tempe-dengan-BBQ-yang-Patut-Dicoba.jpg" class="mx-auto d-block rounded gambar border border-2" style="margin-top: 1px" alt="..." /><i
-                      class="fas fa-heart love d-flex justify-content-center"
-                    ></i>
+            <div class="swiper-slide img">
+              <div>
+                <div class="uk-card card-hight uk-card-default cursor-grab">
+                  <div class="uk-card-media-top pt-2.5">
+                    <img class="flex m-auto rounded-full border-zinc-600 border-solid border-4" src="https://free4kwallpapers.com/uploads/wallpaper/spiderman--wallpaper-1024x768-wallpaper.jpg" alt="" />
                   </div>
-                  <p class="mtp">
-                    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
-                  </p>
-                  <div class="bintang">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                  <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Top</h3>
+                    <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quos pariatur iusto, laboriosam dignissimos vel earum dolore molestiae soluta exercitationem!</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="row g-0 bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-4">
-                  <img src="https://img.okezone.com/content/2018/07/05/33/1918393/banyak-haters-bowo-alpenliebe-akui-pernah-didorong-hingga-dicekik-qmu4FOQFkq.jpeg" class="w-100 rounded-1 img" alt="..." />
-                </div>
-                <div class="col-md-6 p-4 ps-md-0">
-                  <h5 class="mt-0 d-inline">Bowo Tengtong</h5>
-                  <i class="fas fa-user-check d-inline ms"></i>
-                  <div class="d-none d-md-block">
-                    <h5 class="mt-0 text-center">Sop Buntut</h5>
-                    <img src="https://tse1.mm.bing.net/th/id/OIP.cK6X3-UeiIPk9JmBt59VLAHaE6?pid=ImgDet&rs=1" class="mx-auto d-block rounded gambar border border-2" style="margin-top: 1px" alt="..." /><i
-                      class="fas fa-heart love d-flex justify-content-center"
-                    ></i>
+            <div class="swiper-slide img">
+              <div>
+                <div class="uk-card card-hight uk-card-default cursor-grab">
+                  <div class="uk-card-media-top pt-2.5">
+                    <img class="rounded-full flex m-auto border-zinc-600 border-solid border-4" src="https://cdn.pixabay.com/photo/2019/10/14/20/00/man-4549903_960_720.jpg" alt="" />
                   </div>
-                  <p class="mtp">
-                    Another instance of placeholder content for this other custom component. It is intended to mimic what some real-world content would look like, and we're using it here to give the component a bit of body and size.
-                  </p>
-                  <div class="bintang">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
+                  <div class="uk-card-body">
+                    <h3 class="uk-card-title">Bobby Kunnn</h3>
+                    <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia at perspiciatis deserunt nisi harum alias?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide img">
+              <div>
+                <div class="uk-card card-hight uk-card-default cursor-grab">
+                  <div class="uk-card-media-top pt-2.5">
+                    <img class="rounded-full flex m-auto border-zinc-600 border-solid border-4" src="https://cdn.pixabay.com/photo/2016/11/22/21/42/woman-1850703_960_720.jpg" alt="" />
+                  </div>
+                  <div class="uk-card-body">
+                    <h3 class="uk-card-title">Princhess Ratu Selatan</h3>
+                    <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, in quam. Earum, eaque sapiente.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide img">
+              <div>
+                <div class="uk-card card-hight uk-card-default cursor-grab">
+                  <div class="uk-card-media-top pt-2.5">
+                    <img
+                      class="rounded-full flex m-auto border-zinc-600 border-solid border-4"
+                      src="https://img.okezone.com/content/2022/02/25/33/2553314/punya-tiga-pilihan-atta-halilintar-masih-bingung-tentukan-nama-baby-a-An6MnFTxwd.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="uk-card-body">
+                    <h3 class="uk-card-title">Atta Halilintar</h3>
+                    <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, quae?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide img">
+              <div>
+                <div class="uk-card card-hight uk-card-default cursor-grab">
+                  <div class="uk-card-media-top pt-2.5">
+                    <img class="rounded-full flex m-auto border-zinc-600 border-solid border-4" src="https://cdn.pixabay.com/photo/2014/09/17/20/03/profile-449912_960_720.jpg" alt="" />
+                  </div>
+                  <div class="uk-card-body">
+                    <h3 class="uk-card-title">Valentina Jesika</h3>
+                    <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis consequatur doloremque ad facilis non.</p>
                   </div>
                 </div>
               </div>
@@ -376,69 +363,160 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
+
+      <!-- slinder mobile -->
+      <div class="swiper mdmobile lg:hidden">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide img">
+            <div>
+              <div class="uk-card card-hight uk-card-default cursor-grab">
+                <div class="uk-card-media-top pt-2.5">
+                  <img
+                    class="rounded-full flex m-auto border-zinc-600 border-solid border-4"
+                    src="https://img.okezone.com/content/2022/02/25/33/2553314/punya-tiga-pilihan-atta-halilintar-masih-bingung-tentukan-nama-baby-a-An6MnFTxwd.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">Atta Halilintar</h3>
+                  <p class="xl:-mx-8 lg:-mx-6">sosok publik content creator yang telah membeli makanan, ia sangat suka sekali dari restaurant ini ramah dan baik</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide img">
+            <div>
+              <div class="uk-card card-hight uk-card-default cursor-grab">
+                <div class="uk-card-media-top pt-2.5">
+                  <img class="flex m-auto rounded-full border-zinc-600 border-solid border-4" src="https://free4kwallpapers.com/uploads/wallpaper/spiderman--wallpaper-1024x768-wallpaper.jpg" alt="" />
+                </div>
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">Media Top</h3>
+                  <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni nesciunt unde. Fuga obcaecati pariatur iure ab!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide img">
+            <div>
+              <div class="uk-card card-hight uk-card-default cursor-grab">
+                <div class="uk-card-media-top pt-2.5">
+                  <img class="rounded-full flex m-auto border-zinc-600 border-solid border-4" src="https://cdn.pixabay.com/photo/2019/10/14/20/00/man-4549903_960_720.jpg" alt="" />
+                </div>
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">Bobby Kunnn</h3>
+                  <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia at perspiciatis deserunt nisi harum alias?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide img">
+            <div>
+              <div class="uk-card card-hight uk-card-default cursor-grab">
+                <div class="uk-card-media-top pt-2.5">
+                  <img class="rounded-full flex m-auto border-zinc-600 border-solid border-4" src="https://cdn.pixabay.com/photo/2016/11/22/21/42/woman-1850703_960_720.jpg" alt="" />
+                </div>
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">Princhess Ratu Selatan</h3>
+                  <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, in quam. Earum, eaque sapiente.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide img">
+            <div class="w-full">
+              <div class="uk-card card-hight uk-card-default cursor-grab">
+                <div class="uk-card-media-top pt-2.5">
+                  <img
+                    class="rounded-full flex m-auto border-zinc-600 border-solid border-4"
+                    src="https://img.okezone.com/content/2022/02/25/33/2553314/punya-tiga-pilihan-atta-halilintar-masih-bingung-tentukan-nama-baby-a-An6MnFTxwd.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">Atta Halilintar</h3>
+                  <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide img">
+            <div>
+              <div class="uk-card card-hight uk-card-default cursor-grab">
+                <div class="uk-card-media-top pt-2.5">
+                  <img class="rounded-full flex m-auto border-zinc-600 border-solid border-4" src="https://cdn.pixabay.com/photo/2014/09/17/20/03/profile-449912_960_720.jpg" alt="" />
+                </div>
+                <div class="uk-card-body">
+                  <h3 class="uk-card-title">Valentina Jesika</h3>
+                  <p class="xl:-mx-8 lg:-mx-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis consequatur doloremque ad facilis non.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
 
     <!-- reting ends -->
 
     <!-- order stars -->
 
-    <section id="order">
-      <div class="lokasi pt-5">
-        <div class="mt-4 h4 shadow-sm rounded-3"><h2 class="fw-bold" style="text-align: center">Order Delevery</h2></div>
+    <section id="order" class="pt-20 -mt-3">
+      <div class="bg-rose-200 py-2 flex justify-center w-64 md:w-64 lg:w-80 m-auto rounded-xl">
+        <h1 class="text-center font-mono text-xl md:text-2xl lg:text-4xl font-semibold text-red-500">Order Delevery</h1>
       </div>
 
       <div id="order" class="container order">
-        <form class="row g-3">
+        <form class="row g-3 needs-validation" novalidate>
           <div class="col-md-6">
-            <label for="name" class="form-label">Nama</label>
-            <input type="text" class="form-control" id="name" />
+            <label for="name" class="form-label">Nama Penerima</label>
+            <input type="text" class="form-control" id="name" required />
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-md-6">
             <label for="number" class="form-label">Nomer Whattapps</label>
-            <input type="number" class="form-control" id="inputEmail4" />
+            <input type="number" class="form-control" id="validationCustom02" required />
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-md-6">
             <label for="inputState" class="form-label">Orderan Makanan</label>
-            <select id="inputState" class="form-select">
-              <option>Kare Ayam</option>
-              <option>Sop Buntut</option>
-              <option>Steak Daging Babi</option>
+            <select id="option" class="form-select" required>
               <option>Steak Daging Sapi</option>
-              <option>Mie Ayam Kw Jepang</option>
-              <option>Bakso Comberan</option>
-              <option>Sate Babi Kriuk</option>
+              <option>Kentang Goreng</option>
+              <option>Udang Goreng + Pencuci Mulut</option>
+              <option>Steak Daging Sapi</option>
             </select>
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-md-2">
             <label for="inputState" class="form-label">Jumlah</label>
-            <select id="inputState" class="form-select">
-              <option selected>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
+            <input type="number" class="form-control" id="number" required />
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-md-4">
             <label for="inputState" class="form-label">Pengiriman</label>
-            <select id="inputState" class="form-select">
-              <option selected>JNT</option>
+            <select id="Option" class="form-select" required>
+              <option>JNT</option>
               <option>Si Cepat</option>
               <option>Pos</option>
               <option>Grap</option>
               <option>Gojek</option>
             </select>
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-md-9">
             <label for="inputAddress2" class="form-label">Alamat</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, atau rumah tinggal" />
+            <input type="text" class="form-control" id="inputAddress2 " placeholder="Apartment, studio, atau rumah tinggal" required />
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-md-3">
             <label for="inputZip" class="form-label">Kode Pos</label>
-            <input type="number" class="form-control" id="inputZip" />
+            <input type="number" class="form-control" id="Kode" required />
+            <div class="valid-feedback"></div>
           </div>
           <div class="col-12 mb-2">
-            <a id="buy" type="button" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Order Now</a>
+            <button id="buy" type="submit" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Order Now</button>
           </div>
         </form>
       </div>
@@ -448,73 +526,68 @@
 
     <!-- about start -->
 
-    <section class="bground mt-3">
+    <div class="mt-20"></div>
+    <footer class="site-footer">
       <div class="container">
-        <div class="jarak">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="d-flex justify-content-center"><p class="ptxt rounded-md font-medium bg-cyan-500" style="color: white">About</p></div>
-              <div class="d-flex justify-content-center mt-2"><img src="img/Untitled-2.jpg" class="imlast img-thumbnail rounded-circle" alt="..." /></div>
-              <div>
-                <p class="fs-6 d-md-block mt-2 mt-2 mb-2 pabout normal-case">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quas laboriosam.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="d-flex justify-content-center"><p class="ptxt rounded-md font-medium bg-cyan-500" style="color: white">Contact Saya</p></div>
-              <div class="row d-flex justify-content-center mt-3">
-                <div class="col-4">
-                  <i class="bi bi-whatsapp silog d-flex justify-content-center shadow rounded-md"></i>
-                </div>
-                <div class="col-4">
-                  <i class="bi bi-envelope-plus-fill silog d-flex justify-content-center shadow rounded-md"></i>
-                </div>
-              </div>
-              <h5 class="text-center latihan mt-2 text-lg">Mrs Pikrikun</h5>
-              <div class="text-base italic font-medium ml-2">
-                <h3 style="margin-top: 8px">Telepon / Email</h3>
-                <h3>+62 889 87 546 12</h3>
-                <h3>+62 889 11 2234</h3>
-              </div>
-              <div class="text-base italic font-medium ml-2">
-                <h3 style="margin-top: 10px">latihankun@gmail.com</h3>
-                <h3 class="mb-3">latihankun23@gmail.com</h3>
-              </div>
-            </div>
-            <br />
-            <div class="col-md-4">
-              <div class="d-flex justify-content-center container-md"><p class="ptxt rounded-md font-medium bg-cyan-500 mb-2" style="color: white">Sosial Media</p></div>
-              <div class="sosial">
-                <div class="row d-flex justify-content-center">
-                  <div class="col-4">
-                    <a href="https://www.youtube.com/" class="hover" style="text-decoration: none" target="_black"><i class="fab fa-youtube silog d-flex justify-content-center shadow rounded-md"></i></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="https://web.facebook.com/" style="text-decoration: none" class="hover" target="_black"> <i class="fab fa-facebook silog d-flex justify-content-center shadow rounded-md"></i></a>
-                  </div>
-                </div>
-                <div class="row colmargin mb-5 d-flex justify-content-center">
-                  <div class="col-4">
-                    <a href="https://www.instagram.com/" class="hover" style="text-decoration: none" target="_black"><i class="fab fa-instagram silog d-flex justify-content-center shadow rounded-md"></i></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="https://www.tiktok.com/" style="text-decoration: none" target="_black"> <i class="fab fa-tiktok silog d-flex justify-content-center shadow rounded-md"></i></a>
-                  </div>
-                  <div class="col-4">
-                    <a href="https://twitter.com/?lang=en-id" class="hover" style="text-decoration: none" target="_black"><i class="fab fa-twitter silog d-flex justify-content-center shadow rounded-md"></i></a>
-                  </div>
-                  <div class="sg">
-                    <h5 class="text-center latihan mt-4 text-lg">Follow Me Us</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="row pb-3">
+          <div class="col-sm-12 col-md-6 pt-3">
+            <h6 class="font-medium">About</h6>
+            <p class="text-justify text-slate-200 pt-1 px-2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti aspernatur ipsum ipsam fugiat voluptates alias eius ab? Odit sunt tempore delectus vero eligendi deleniti ducimus dolorum itaque pariatur, architecto iste,
+              beatae quas adipisci, repellendus eius quam ut reiciendis? Velit, amet!
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3 pt-3">
+            <h6 class="font-medium">Tags</h6>
+            <ul class="footer-links pt-2 px-2">
+              <li>Cutemers Servise</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Restaurant Servise</li>
+              <li>Seafod Reserved</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3 pt-3">
+            <h6 class="font-medium">Contact</h6>
+            <ul class="footer-links pt-2 px-2">
+              <li>@FoodSpecial</li>
+              <li>@SeaFooddvlr</li>
+              <li>+62899227665</li>
+              <li>+6287722345</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container pt-2">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text pt-2.5 text-slate-200">Copyright & 2022 | All Rights Reserved by <a href="#" class="underline">Tim Compeny Fikar</a></p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="bi bi-youtube"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-    <!-- about end -->
+    </footer>
 
-    <div class="copyright">Copyright 2022 | All Rights <i class="fas fa-heart" style="color: red"></i> by Pikrikun</div>
+    <!-- about end -->
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
