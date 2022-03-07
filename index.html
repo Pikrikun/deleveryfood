@@ -59,7 +59,7 @@
               <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#lokasi">Lokasi Toko</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#reting">Reting Food</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#ulasan">Reting Food</a>
             </li>
             <li class="nav-item">
               <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#order">Order Food</a>
@@ -70,7 +70,7 @@
     </nav>
 
     <!-- navbar mobile app -->
-    <div class="offcanvas offcanvas-end w-64 md:w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas offcanvas-end w-64 md:w-96" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
         <h5 id="offcanvasRightLabel">Offcanvas right</h5>
         <i class="bi bi-x-circle-fill text-xl" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></i>
@@ -88,7 +88,7 @@
             <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#lokasi">Lokasi Toko</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#reting">Reting Food</a>
+            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#ulasan">Reting Food</a>
           </li>
           <li class="nav-item">
             <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#order">Order Food</a>
@@ -101,7 +101,7 @@
     <!-- slinder start -->
     <div class="swiper Slinder">
       <div class="swiper-wrapper">
-        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
           <img src="https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_960_720.jpg" alt="" class="w-full md:w-auto" />
 
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
@@ -109,21 +109,21 @@
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
           <img src="https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg" alt="" class="w-full md:w-auto" />
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
           <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg" alt="" class="w-full md:w-auto" />
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto sm:h-72" tabindex="-1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
           <img src="https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_960_720.jpg" alt="" class="w-full md:w-auto" />
           <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
             <h3 class="uk-margin-remove">Bottom</h3>
@@ -141,7 +141,7 @@
     <section id="listmenu" class="pt-20 -mt-3">
       <h1 class="text-center text-5xl text-zinc-50 font-medium font-serif text-black">List Menu</h1>
 
-      <div class="container mt-2">
+      <div class="container mt-4">
         <div class="row">
           <div class="col-xl">
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
@@ -155,7 +155,7 @@
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius distinctio, aliquam aut incidunt modi ab esse doloremque ad velit hic excepturi, illum asperiores minus dolorum debitis eaque odit ducimus.</p>
                   <div class="d-flex mt-2">
                     <button class="uk-button inline-block uk-button-secondary rounded-lg mt-2">Buy Now</button>
-                    <p class="text-red-500 oldstyle-nums text-xl font-medium 2xl:text-xl pl-2 content-center mt-2.5">22.000</p>
+                    <p class="text-red-500 oldstyle-nums text-xl font-medium 2xl:text-xl pl-2 content-center mt-2.5">39.000</p>
                     <span>Rp</span>
                   </div>
                 </div>
@@ -207,16 +207,16 @@
           <div class="col-xl">
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72 rounded-b-lg md:rounded-b-none" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
               <div class="uk-card-media-left uk-cover-container md:rounded-l-lg xl:h-full">
-                <img src="https://cdn.pixabay.com/photo/2021/05/01/22/01/meat-6222139_960_720.jpg" class="" alt="" uk-cover />
+                <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_960_720.jpg" class="" alt="" uk-cover />
                 <canvas width="600" height="400"></canvas>
               </div>
               <div>
                 <div class="uk-card-body xl:-my-6 xl:px-4 w-full">
-                  <h3 class="uk-card-title text-slate-200">Udang Goreng Legend</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, eius distinctio, aliquam aut incidunt modi ab esse doloremque ad velit hic excepturi, illum asperiores minus dolorum debitis eaque odit ducimus.</p>
+                  <h3 class="uk-card-title text-slate-200">Hamburger Special Jumbo</h3>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates ex atque vel aliquid placeat sit, veritatis soluta incidunt, dolores aliquam fuga ab cupiditate unde cum. Omnis quisquam recusandae ea! Qui!</p>
                   <div class="d-flex mt-2">
                     <button class="uk-button inline-block uk-button-secondary rounded-lg mt-2">Buy Now</button>
-                    <p class="text-red-500 oldstyle-nums text-xl font-medium 2xl:text-xl pl-2 content-center mt-2.5">22.000</p>
+                    <p class="text-red-500 oldstyle-nums text-xl font-medium 2xl:text-xl pl-2 content-center mt-2.5">35.000</p>
                     <span>Rp</span>
                   </div>
                 </div>
@@ -264,8 +264,8 @@
     <!-- lokasi end -->
 
     <!-- reting start -->
-    <section id="reting">
-      <div class="bg-rose-200 py-2 pt-20 -mt-20 flex justify-center w-64 md:w-72 lg:w-96 m-auto rounded-xl mb-4">
+    <section id="ulasan" class="pt-20 -mt-10">
+      <div class="bg-rose-200 py-2 flex justify-center w-64 md:w-72 lg:w-96 m-auto rounded-xl mb-4">
         <h1 class="text-center font-mono text-xl md:text-2xl lg:text-4xl font-semibold text-red-500">Ulasan Pelanggan</h1>
       </div>
 
@@ -485,7 +485,7 @@
               <option>Steak Daging Sapi</option>
               <option>Kentang Goreng</option>
               <option>Udang Goreng + Pencuci Mulut</option>
-              <option>Steak Daging Sapi</option>
+              <option>Hamburger Special Jumbo</option>
             </select>
             <div class="valid-feedback"></div>
           </div>
@@ -499,7 +499,6 @@
             <select id="Option" class="form-select" required>
               <option>JNT</option>
               <option>Si Cepat</option>
-              <option>Pos</option>
               <option>Grap</option>
               <option>Gojek</option>
             </select>
@@ -516,12 +515,28 @@
             <div class="valid-feedback"></div>
           </div>
           <div class="col-12 mb-2">
-            <button id="buy" type="submit" class="btn bg-cyan-500 hover:bg-cyan-600" href="#" style="color: rgb(248 250 252)">Order Now</button>
+            <button id="buy" type="submit" class="btn bg-cyan-500 hover:bg-cyan-600" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#" style="color: rgb(248 250 252)" required>Order Now</button>
+            <div class="valid-feedback"></div>
+
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </form>
       </div>
     </section>
-
     <!-- order end -->
 
     <!-- about start -->
@@ -564,7 +579,7 @@
       <div class="container pt-2">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text pt-2.5 text-slate-200">Copyright & 2022 | All Rights Reserved by <a href="#" class="underline">Tim Compeny Fikar</a></p>
+            <p class="copyright-text pt-2.5 text-slate-200">Copyright & 2022 | All Rights Reserved by <a href="#" class="hover:no-underline hover:text-slate-600">Tim Compeny Fikar</a></p>
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-12">
