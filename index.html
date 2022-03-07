@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -38,94 +38,96 @@
   </head>
   <body id="slinder">
     <!-- start navigation -->
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-utensils"></i>
-          Warung Makan
-        </a>
-        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+    <section>
+      <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-utensils"></i>
+            Warung Makan
+          </a>
+          <button class="navbar-toggler navbar-dark transition" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" aria-current="page" href="#slinder">Slinder</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#listmenu">List Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#lokasi">Lokasi Toko</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#ulasan">Reting Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#order">Order Food</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar mobile app -->
+      <div class="offcanvas offcanvas-end w-64 md:w-96" id="offcanvasRight">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+          <i class="bi bi-x-circle-fill text-xl" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <hr class="w-full" />
+        <div class="offcanvas-body">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" aria-current="page" href="#slinder">Slinder</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#slinder">Slinder</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#listmenu">List Menu</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#listmenu">List Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#lokasi">Lokasi Toko</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#lokasi">Lokasi Toko</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#ulasan">Reting Food</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#ulasan">Reting Food</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:h-full" href="#order">Order Food</a>
+              <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#order">Order Food</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
+    </section>
 
-    <!-- navbar mobile app -->
-    <div class="offcanvas offcanvas-end w-64 md:w-96" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class="offcanvas-header">
-        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-        <i class="bi bi-x-circle-fill text-xl" type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></i>
-      </div>
-      <hr class="w-full" />
-      <div class="offcanvas-body">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" aria-current="page" href="#slinder">Slinder</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#listmenu">List Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#lokasi">Lokasi Toko</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#ulasan">Reting Food</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link hover:bg-neutral-400 hover:text-neutral-300 hover:no-underline hover:text-center" href="#order">Order Food</a>
-          </li>
-        </ul>
-      </div>
-    </div>
     <!-- navigation end -->
 
     <!-- slinder start -->
-    <div class="swiper Slinder">
+    <div class="swiper Slinder shadow-md shadow-gray-600">
       <div class="swiper-wrapper">
-        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
+        <div class="swiper-slide h-auto sm:h-72">
           <img src="https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_960_720.jpg" alt="" class="w-full md:w-auto" />
-
-          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
+          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="0">
           <img src="https://cdn.pixabay.com/photo/2014/09/17/20/26/restaurant-449952_960_720.jpg" alt="" class="w-full md:w-auto" />
-          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
+          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="0">
           <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_960_720.jpg" alt="" class="w-full md:w-auto" />
-          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
+          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div class="swiper-slide h-auto sm:h-72" tabindex="1">
+        <div class="swiper-slide h-auto sm:h-72" tabindex="0">
           <img src="https://cdn.pixabay.com/photo/2021/03/16/10/04/street-6099209_960_720.jpg" alt="" class="w-full md:w-auto" />
-          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-animation-slide-bottom">
+          <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
             <h3 class="uk-margin-remove">Bottom</h3>
             <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -144,7 +146,7 @@
       <div class="container mt-4">
         <div class="row">
           <div class="col-xl">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-scrollspy="cls: uk-animation-slide-left; ">
               <div class="uk-card-media-left uk-cover-container rounded-t-lg md:rounded-t-none md:rounded-l-lg xl:h-full">
                 <img src="https://cdn.pixabay.com/photo/2021/05/01/22/01/meat-6222139_960_720.jpg" class="" alt="" uk-cover />
                 <canvas width="600" height="400"></canvas>
@@ -163,7 +165,7 @@
             </div>
           </div>
           <div class="col-xl">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-scrollspy="cls: uk-animation-slide-right; repeat: true" uk-grid>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-scrollspy="cls: uk-animation-slide-right; " uk-grid>
               <div class="uk-flex-last@s uk-card-media-right uk-cover-container md:rounded-r-lg xl:h-full">
                 <img src="https://cdn.pixabay.com/photo/2016/04/25/01/58/french-fries-1351062_960_720.jpg" class="" alt="" uk-cover />
                 <canvas width="600" height="400"></canvas>
@@ -186,7 +188,7 @@
         </div>
         <div class="row mt-3">
           <div class="col-xl">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-grid uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72" uk-grid uk-grid uk-scrollspy="cls: uk-animation-slide-left; ">
               <div class="uk-flex-last@s uk-card-media-right uk-cover-container md:rounded-r-lg xl:h-full">
                 <img src="https://cdn.pixabay.com/photo/2020/03/21/04/00/shrimp-4952610_960_720.jpg" class="" alt="" uk-cover />
                 <canvas width="600" height="400"></canvas>
@@ -205,7 +207,7 @@
             </div>
           </div>
           <div class="col-xl">
-            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72 rounded-b-lg md:rounded-b-none" uk-grid uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin xl:h-80 2xl:h-72 rounded-b-lg md:rounded-b-none" uk-grid uk-scrollspy="cls: uk-animation-slide-right; ">
               <div class="uk-card-media-left uk-cover-container md:rounded-l-lg xl:h-full">
                 <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_960_720.jpg" class="" alt="" uk-cover />
                 <canvas width="600" height="400"></canvas>
@@ -265,7 +267,7 @@
 
     <!-- reting start -->
     <section id="ulasan" class="pt-20 -mt-10">
-      <div class="bg-rose-200 py-2 flex justify-center w-64 md:w-72 lg:w-96 m-auto rounded-xl mb-4">
+      <div class="bg-rose-200 py-2 flex justify-center w-64 md:w-72 lg:w-96 m-auto rounded-xl mb-4 font-semibold">
         <h1 class="text-center font-mono text-xl md:text-2xl lg:text-4xl font-semibold text-red-500">Ulasan Pelanggan</h1>
       </div>
 
@@ -463,7 +465,7 @@
     <!-- order stars -->
 
     <section id="order" class="pt-20 -mt-3">
-      <div class="bg-rose-200 py-2 flex justify-center w-64 md:w-64 lg:w-80 m-auto rounded-xl">
+      <div class="bg-rose-200 py-2 flex justify-center w-64 md:w-64 lg:w-80 m-auto rounded-xl font-semibold">
         <h1 class="text-center font-mono text-xl md:text-2xl lg:text-4xl font-semibold text-red-500">Order Delevery</h1>
       </div>
 
@@ -516,23 +518,6 @@
           </div>
           <div class="col-12 mb-2">
             <button id="buy" type="submit" class="btn bg-cyan-500 hover:bg-cyan-600" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#" style="color: rgb(248 250 252)" required>Order Now</button>
-            <div class="valid-feedback"></div>
-
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">...</div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Understood</button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </form>
       </div>
